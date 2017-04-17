@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+
+    style="@style/match_parent"
+
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        style="@style/match_parent">
+
+        <include layout="@layout/customlayout"></include>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutDrawable"
+        style="@style/match_parent"
+        android:layout_width="275dp"
+        android:layout_gravity="start"
+        android:background="@color/white"
+        android:orientation="vertical"
+
+        >
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            style="@style/wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/large"
+            android:layout_marginTop="@dimen/large"
+            android:src="@drawable/user_placeholder" />
+
+        <TextView
+            style="@style/tv_drawerlayout"
+            android:gravity="center"
+            android:text="Kunal"
+            android:textColor="@color/black" />
+
+        <TextView
+            style="@style/tv_drawerlayout"
+            android:gravity="center"
+            android:text="Edit Profile"
+            android:textColor="@color/warm_grey" />
+
+        <Switch
+            style="@style/match_wrap"
+            android:layout_marginBottom="@dimen/large"
+            android:layout_marginLeft="@dimen/medium"
+            android:drawableLeft="@drawable/icon_networks"
+            android:text="  Network View"
+            android:textSize="@dimen/large" />
+
+        <TextView
+            style="@style/tv_drawerlayout"
+            android:layout_marginLeft="@dimen/medium"
+            android:drawableLeft="@drawable/icon_payment_pressed"
+            android:text="  Payment" />
+
+        <TextView
+            android:id="@+id/tv_jobHistory"
+            style="@style/tv_drawerlayout"
+            android:layout_marginLeft="@dimen/medium"
+            android:drawableLeft="@drawable/icon_job_normal"
+            android:text="  Job History" />
+
+        <TextView
+            style="@style/tv_drawerlayout"
+            android:layout_marginLeft="@dimen/medium"
+            android:drawableLeft="@drawable/icon_emergency_normal"
+            android:text="  Emergency Contact" />
+
+        <TextView
+            style="@style/tv_drawerlayout"
+            android:layout_marginLeft="@dimen/medium"
+            android:drawableLeft="@drawable/icon_help_normal"
+            android:text="  Help" />
+
+        <TextView
+            style="@style/tv_drawerlayout"
+            android:layout_marginLeft="@dimen/medium"
+            android:drawableLeft="@drawable/icon_logout_normal"
+            android:text="  Logout" />
+
+        <TextView
+            style="@style/tv_drawerlayout"
+            android:layout_marginLeft="@dimen/small"
+            android:text="Support via Call/Email"
+            android:textColor="@color/warm_grey" />
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:orientation="horizontal">
+
+            <CheckBox
+                style="@style/match_wrap"
+                android:layout_gravity="right"
+                android:layout_marginLeft="@dimen/xxxlarge"
+                android:layout_weight="1"
+                android:button="@drawable/call" />
+
+            <CheckBox
+                style="@style/match_wrap"
+                android:layout_marginLeft="@dimen/large"
+                android:layout_weight="1"
+                android:button="@drawable/msg" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
+

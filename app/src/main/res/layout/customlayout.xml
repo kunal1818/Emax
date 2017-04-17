@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/match_wrap"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageViewCustom"
+        style="@style/wrap_content"
+        android:src="@drawable/back_button" />
+
+    <TextView
+        android:id="@+id/tv_custom"
+        style="@style/match_wrap"
+        android:layout_marginRight="@dimen/xxlarge"
+        android:gravity="center"
+        android:paddingBottom="@dimen/small"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="@dimen/xxlarge_text" />
+</LinearLayout>

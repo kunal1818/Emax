@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small">10dp</dimen>
+    <dimen name="medium">15dp</dimen>
+    <dimen name="large">20dp</dimen>
+    <dimen name="xlarge">30dp</dimen>
+    <dimen name="largemid">35dp</dimen>
+    <dimen name="xxlarge">40dp</dimen>
+    <dimen name="xxxlarge">55dp</dimen>
+    <dimen name="largest">60dp</dimen>
+    <dimen name="marginleft">70dp</dimen>
+    <dimen name="marginleftTextview">135dp</dimen>
+</resources>

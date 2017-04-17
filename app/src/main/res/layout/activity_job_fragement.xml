@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/job_fragement"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:weightSum="5"
+    tools:context="com.example.android.emax.fragements.JobFragement">
+
+    <include layout="@layout/customlayout"></include>
+
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_marginRight="@dimen/medium"
+        android:layout_marginTop="@dimen/medium"
+        android:layout_weight=".1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_jobHistory"
+            style="@style/match_wrap"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:text="Job History"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_missedJobs"
+            style="@style/match_wrap"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:text="Missed jobs"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        style="@style/match_wrap"
+        android:layout_marginLeft="@dimen/medium"
+        android:layout_marginRight="@dimen/medium"
+        android:layout_weight="4.87" />
+</LinearLayout>

@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/large</item>
+        <item name="android:layout_marginRight">@dimen/large</item>
+        <item name="android:textSize">@dimen/large_text</item>
+    </style>
+
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="match_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/large</item>
+        <item name="android:layout_marginRight">@dimen/large</item>
+        <item name="android:textColor">@color/warm_grey</item>
+        <item name="android:textSize">@dimen/large_text</item>
+
+
+    </style>
+
+    <style name="edittextSignUP">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/large</item>
+        <item name="android:layout_marginRight">@dimen/large</item>
+        <item name="android:layout_marginTop">@dimen/small</item>
+        <item name="android:textColor">@color/warm_grey</item>
+
+    </style>
+    <style name="tv_drawerlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/large</item>
+        <item name="android:layout_marginBottom">@dimen/large</item>
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+    <style name="tv_jobFragement">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/medium</item>
+        <item name="android:layout_marginBottom">@dimen/medium</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

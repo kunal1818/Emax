@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.emax.SignUpActivity">
+
+    <include layout="@layout/customlayout"></include>
+
+    <ScrollView style="@style/match_parent">
+
+        <LinearLayout
+            style="@style/match_parent"
+            android:orientation="vertical">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                style="@style/wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/large"
+                android:layout_marginTop="@dimen/large"
+                android:src="@drawable/user_placeholder" />
+
+            <LinearLayout
+                style="@style/match_wrap"
+                android:orientation="horizontal">
+
+                <android.support.design.widget.TextInputLayout
+                    style="@style/wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        style="@style/edittextSignUP"
+                        android:layout_marginRight="0dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/icon_name"
+                        android:hint="  First name "
+                        android:inputType="textCapWords" />
+                </android.support.design.widget.TextInputLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.01"
+                    android:background="@color/warm_grey" />
+
+                <android.support.design.widget.TextInputLayout
+                    style="@style/wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        style="@style/edittextSignUP"
+                        android:layout_marginLeft="0dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@drawable/icon_name"
+                        android:hint="  Last name"
+                        android:inputType="textCapWords" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/match_wrap">
+
+                <EditText
+                    style="@style/edittextSignUP"
+                    android:drawableLeft="@drawable/icon_contact"
+                    android:hint="  Contact Number"
+                    android:inputType="number"
+                    android:maxLength="10" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/match_wrap">
+
+                <EditText
+                    style="@style/edittextSignUP"
+                    android:drawableLeft="@drawable/icon_name"
+                    android:hint="  Contact Name"
+                    android:inputType="textCapWords" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout style="@style/match_wrap">
+
+
+                <EditText
+                    android:id="@+id/ed_email_Sign_up"
+                    style="@style/edittextSignUP"
+                    android:drawableLeft="@drawable/icon_email"
+                    android:hint="  Email address" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/match_wrap">
+
+                <EditText
+                    android:id="@+id/ed_password_signUp"
+                    style="@style/edittextSignUP"
+                    android:drawableLeft="@drawable/icon_password"
+                    android:hint="  Password"
+                    android:inputType="numberPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout style="@style/match_wrap">
+
+                <EditText
+                    android:id="@+id/ed_confirmPassword"
+                    style="@style/edittextSignUP"
+                    android:drawableLeft="@drawable/icon_password"
+                    android:hint="  Confirm Password"
+                    android:inputType="numberPassword" />
+            </android.support.design.widget.TextInputLayout>
+
+            <CheckBox
+                style="@style/wrap_content"
+                android:layout_marginLeft="@dimen/large"
+                android:layout_marginRight="@dimen/large"
+                android:button="@drawable/checkbox"
+                android:text="@string/checkbox" />
+
+            <Button
+                android:id="@+id/btn_SignUpPage"
+                style="@style/button"
+                android:layout_marginLeft="@dimen/large"
+                android:layout_marginRight="@dimen/large"
+                android:layout_marginTop="@dimen/small"
+                android:background="@color/blue"
+                android:text="Signup"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

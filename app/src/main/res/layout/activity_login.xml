@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2"
+    tools:context="com.example.android.emax.LoginActivity">
+
+    <ImageView
+        android:id="@+id/image2"
+        style="@style/wrap_content"
+        android:layout_marginLeft="@dimen/xxxlarge"
+        android:layout_marginRight="@dimen/xxxlarge"
+        android:layout_marginTop="@dimen/largest"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/ed_Email"
+        style="@style/edittext"
+        android:layout_below="@id/image2"
+        android:layout_marginTop="@dimen/largest"
+        android:drawableLeft="@drawable/icon_email"
+        android:hint="  Email address"
+        android:textColor="@color/warm_grey" />
+
+    <EditText
+        android:id="@+id/ed_Password"
+        style="@style/edittext"
+        android:layout_below="@id/ed_Email"
+        android:layout_marginTop="@dimen/xlarge"
+        android:drawableLeft="@drawable/icon_password"
+        android:hint="  Password"
+        android:inputType="number"
+        android:textColor="@color/warm_grey" />
+
+    <Button
+        android:id="@+id/btnLoginPage"
+        style="@style/button"
+        android:layout_below="@id/ed_Password"
+        android:layout_marginTop="@dimen/medium"
+        android:background="@color/blue"
+        android:text="Login"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_forgot_password"
+        style="@style/wrap_content"
+        android:layout_below="@id/btnLoginPage"
+        android:layout_marginLeft="@dimen/marginleftTextview"
+        android:layout_marginTop="@dimen/medium"
+        android:text="Forgot password?"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/large_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_Dont_have_a_account"
+        style="@style/wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/small"
+        android:layout_marginLeft="@dimen/marginleft"
+        android:text="Dont have a account?"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/large_text" />
+
+    <TextView
+        android:id="@+id/tv_sign_up_loginpage"
+        style="@style/wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/small"
+        android:layout_toRightOf="@id/tv_Dont_have_a_account"
+        android:background="@color/white"
+        android:text="  Sign up"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/large_text"
+        android:textStyle="bold" />
+
+</RelativeLayout>

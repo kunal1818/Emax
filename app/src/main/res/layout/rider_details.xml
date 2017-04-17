@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/insider"
+    android:orientation="vertical"
+    tools:context="com.example.android.emax.adapter.MainAdapter">
+
+    <LinearLayout
+        style="@style/match_wrap"
+        android:layout_marginLeft="@dimen/small"
+        android:layout_marginRight="@dimen/small"
+        android:layout_marginTop="@dimen/small"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <TextView
+            android:id="@+id/tv_date"
+            style="@style/match_wrap"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/large_text" />
+
+        <TextView
+            android:id="@+id/tv_distance"
+            style="@style/match_wrap"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/large_text" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="@dimen/small"
+        android:layout_marginRight="@dimen/small"
+        android:background="@color/black" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/match_wrap"
+        android:layout_marginLeft="@dimen/small"
+        android:layout_marginRight="@dimen/small"
+        android:layout_marginTop="@dimen/small"
+        android:layout_weight="1"
+        android:textColor="@color/black" />
+
+
+    <TextView
+        android:id="@+id/tv_details"
+        style="@style/match_wrap"
+        android:layout_marginLeft="@dimen/small"
+        android:layout_marginRight="@dimen/small"
+        android:layout_marginTop="@dimen/small"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/shapeoval" />
+
+    <LinearLayout
+        android:id="@+id/ll_display"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/medium"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_destination_details"
+            style="@style/match_wrap"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/shapeoval_red" />
+
+        <TextView
+            android:id="@+id/tv_ride_time"
+            style="@style/match_wrap"
+            android:layout_margin="@dimen/small"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:background="@color/black" />
+
+        <LinearLayout
+            style="@style/match_wrap"
+            android:layout_marginLeft="@dimen/small"
+            android:layout_marginRight="@dimen/small"
+            android:layout_marginTop="@dimen/small"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/tv_totalAmount"
+                style="@style/match_wrap"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/large_text" />
+
+            <TextView
+                android:id="@+id/tv_number"
+                style="@style/match_wrap"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/large_text" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

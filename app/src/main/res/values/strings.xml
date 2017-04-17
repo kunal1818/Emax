@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Emex</string>
+    <string name="checkbox">I accept <font color="@color/blue"><b><u>Terms of Service</u></b></font> and <font color="@color/blue"><b><u>Privacy Policy</u></b></font></string>
+    <string name="forgotpassword">Please enter your mobile number to reset your password</string>
+    <string name="drivername"> Driver name: Suresh Kumar</string>
+    <string name="date">14 June,2016 04:23 PM</string>
+    <string name="distance">5.6 Km</string>
+    <string name="details">. 3846 W 38 Rd, Shiv Srishti Marg
+        Mumbai</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
