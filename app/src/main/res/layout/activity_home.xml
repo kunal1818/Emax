@@ -52,6 +52,7 @@
             android:textSize="@dimen/large" />
 
         <TextView
+            android:id="@+id/tvMap"
             style="@style/tv_drawerlayout"
             android:layout_marginLeft="@dimen/medium"
             android:drawableLeft="@drawable/icon_payment_pressed"
